@@ -1,0 +1,104 @@
+/*
+Theme Name: Theme Pascal ludus1B
+Theme URI: ludus1B.com
+Author: Gokhan UNALAN
+Description: Theme css pour pascal Ludus1B
+Version: 1.0
+License: Ludus1B
+License URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+
+body{
+	margin:0;
+	margin-top:80px;
+	background:#1b1b2b;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #25253d;
+    top: 0;
+	position: fixed;
+    width: 100%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #666688;
+}
+
+.active {
+    background-color: #6d6daf;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+.clients {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.clients td, .clients th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	text-align: center;
+}
+
+.clients tr:nth-child(even){
+	background-color: #25253d;
+}
+
+.clients tr:hover {
+	background-color: #6d6daf;
+}
+
+.clients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6d6daf;
+    color: white;
+	text-align: center;
+}
+
+.selection1 {
+	height:100px;
+}
+
+legend {
+	color:#white;
+	font-weight:bold
+}
+
+form {
+	background-color:#25253d;
+	padding:10px;
+	width:200px;
+	text-align: center;
+	margin-left:45%;
+}
+
+fieldset {
+	padding:20px;
+	margin-bottom:10px;
+}
